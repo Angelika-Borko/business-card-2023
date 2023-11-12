@@ -2,7 +2,7 @@ body {
     background: #2C2141;
     min-height: 100vh;
     display: flex;
-    align-content: center;
+    justify-content: center;
     align-items: center;
     padding: 16px;
     font-family: Arial;
@@ -12,6 +12,17 @@ body {
     border-radius: 16px;
     background: #F8F8F8;
     padding: 32px;
+    flex-basis: 616px;
+}
+
+.card_content {
+    display: flex;
+padding: 32px;
+align-items: flex-start;
+align-content: flex-start;
+gap: 24px;
+flex-wrap: wrap;
+justify-content: center;
 }
 
 .card_description {
@@ -38,6 +49,15 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 1.375;
+}
+
+.card_info {
+flex-basis: 380px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+flex-grow: 1;
 }
 
 .card_name {
