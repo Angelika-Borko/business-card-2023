@@ -15,7 +15,7 @@ body {
     flex-basis: 616px;
 }
 
-.card_content {
+.card__content {
     display: flex;
 align-items: flex-start;
 align-content: flex-start;
@@ -24,7 +24,7 @@ flex-wrap: wrap;
 justify-content: center;
 }
 
-.card_description {
+.card__description {
     color: #000;
     font-size: 16px;
     font-style: normal;
@@ -33,7 +33,7 @@ justify-content: center;
     margin: 0;
 }
 
-.card_description--link {
+.card__description--link {
     color: #E20613;
     font-size: 16px;
     font-style: normal;
@@ -42,7 +42,7 @@ justify-content: center;
     text-decoration: none;
 }
 
-.card_description--special {
+.card__description--special {
     color: #ED6D05;
     font-size: 16px;
     font-style: normal;
@@ -50,7 +50,7 @@ justify-content: center;
     line-height: 1.375;
 }
 
-.card_info {
+.card__info {
 flex-basis: 380px;
 display: flex;
 flex-direction: column;
@@ -59,7 +59,7 @@ gap: 24px;
 flex-grow: 1;
 }
 
-.card_name {
+.card__name {
     color: #000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 36px;
@@ -69,7 +69,7 @@ flex-grow: 1;
     margin: 0;
 }
 
-.card_occupation {
+.card__occupation {
     color: #545454;
     font-size: 18px;
     font-style: italic;
